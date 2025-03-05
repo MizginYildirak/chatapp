@@ -4,4 +4,8 @@ export default {
     server: {
       hmr: {
         protocol: 'ws',  // ws (WebSocket) kullanmayı tercih edebiliriz
-        host: 'localhost'
+        host: 'localhost', // WebSocket sunucusunun çalışacağı host
+      },
+    },
+  };
+  
